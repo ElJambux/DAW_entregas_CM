@@ -3,7 +3,7 @@ package entrega_02.src;
 public class CalculadoraBasica {
     static final MyScanner sc = new MyScanner();
 
-    static void main() throws DivisionEntreCeroException {
+    static void main() {
 
         // requests two numbers from user
         double input = pedirNumero("Input number 1.");
