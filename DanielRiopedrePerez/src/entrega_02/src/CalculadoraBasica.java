@@ -17,6 +17,8 @@ public class CalculadoraBasica {
         System.out.println("Sum: " + sumar(input, input_2));
         System.out.println("Substraction: " + restar(input, input_2));
         System.out.println("Multiplication: " + multiplicar(input, input_2));
+        // able to catch the division method's exception
+        // outputs an error message if it catches the exception
         try {
             System.out.println("Division: " + dividir(input, input_2));
         } catch (DivisionEntreCeroException e) {
